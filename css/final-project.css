@@ -1,0 +1,63 @@
+.fan-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    background: var(--card-alt-bg);
+}
+
+.fan-controls [hidden] {
+    display: none;
+}
+
+.fan-faq-question {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.fan-faq-answer {
+    display: none;
+    margin: 0;
+    padding: 12px 14px;
+    background: var(--card-alt-bg);
+}
+
+[data-bs-theme="dark"] {
+    & body {
+        --light-bg: #161616;
+        --card-alt-bg: #252525;
+        color: #f4f4f4;
+    }
+
+    & .section-title,
+    & .card-content h3,
+    & .card-content p,
+    & .tour-grid-card p,
+    & .artist-subtitle {
+        color: #f4f4f4;
+    }
+
+    & .section-title {
+        border-color: var(--primary-color);
+    }
+
+    & .card,
+    & .player-container,
+    & .tour-grid-card {
+        border-color: #565656;
+    }
+
+    & .custom-table tbody tr:nth-child(even) {
+        background-color: var(--card-alt-bg);
+    }
+
+    & .btn:focus-visible {
+        outline: 2px solid #fff;
+        outline-offset: 2px;
+    }
+}
