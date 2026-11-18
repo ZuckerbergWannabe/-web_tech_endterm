@@ -137,5 +137,3 @@ Endterm Contributions:
 - Bad Bunny track search on the Home page using the MusicBrainz API, fetch, and JSON.
 
 Current repository: https://github.com/ZuckerbergWannabe/-web_tech_endterm
-
-AI credit: OpenAI Codex assisted with the theme, fan sign-in, FAQ, and track search.
