@@ -128,3 +128,14 @@ Endterm Contributions:
 - Implemented password confirmation.
 - Added real-time validation feedback.
 
+
+## Final Project Features
+
+- Light and dark mode on all five pages, saved in localStorage.
+- Fan sign-in and sign-out. The form validates a display name and saves it in the browser.
+- Five FAQ questions on the About page with jQuery slideToggle animations.
+- Bad Bunny track search on the Home page using the MusicBrainz API, fetch, and JSON.
+
+Current repository: https://github.com/ZuckerbergWannabe/-web_tech_endterm
+
+AI credit: OpenAI Codex assisted with the theme, fan sign-in, FAQ, and track search.
